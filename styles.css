@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #202324;
+    font-family: "Segoe UI", sans-serif;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 34rem;
+    width: 90%;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font: inherit;
+    width: auto;
+}
+
+input::placeholder{
+    color: #fff
+}
+
+label{
+    display: block;
+}
+
+.card{
+    background-color: #141414;
+    border-radius: 30px;
+    color: #bebebe;
+    padding: 30px;
+    position: relative;
+}
+
+.header{
+    margin-bottom: 0rem;
+}
+
+.title{
+    color: #fff;
+    position: absolute;
+    margin-top: 11.5rem;
+    font-size: 1.5rem;
+}
+
+.logo {
+    padding: 1px;
+    position: absolute;
+    top: 0;
+    margin-top: 2rem;
+    margin-left: 20rem;
+  }
+
+.inforow{
+    margin-top: 1rem;
+}
+
+.card-content{
+    position: absolute;
+    top: 0;
+    margin-top: 2.5rem;
+}
+
+.card-content input{
+    outline: none;
+}
+
+.card-number {
+    font-size: 2rem;
+    color: #fff;
+  }
+
+.card-number input{
+    font-size: large;
+}
+
+.chip{
+    padding: 1px;
+    margin-top: 3rem;
+    margin-left: 21rem;
+}
+
+.name {
+    margin-top: -1rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.name label {
+    margin-right: 0.5rem;
+}
+
+.name input {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.card-expire{
+    float: left;
+}
+
+.card-expire-month select {
+    font-size: 0.95rem;
+    border: none;
+    background-color: transparent;
+    appearance: none;
+    color: white; /* Set the text color to white */
+    background-color: transparent; /* Set the background color to gray */
+  }
+
+.card-expire-month select::-ms-expand {
+    display: none; /* Remove the arrow icon on IE */
+  }
+  
+.card-expire-month select option {
+    background-color: #252525; /* Set the background color for each option */
+  }
+  
+.card-expire-month select:focus {
+    outline: none;
+  }
+
+.card-expire-month, .card-expire-year {
+    float: left;
+    margin-right: 1rem; /* Add margin-right to create space between month and year fields */
+  }
+
+.card-cvv {
+    float: left;
+    margin-right: 1rem; /* Add margin-right to create space between CVV and month field */
+  }
+
+.card-cvv input{
+    width: 2rem;
+    text-align: left;
+    font-size: 0.9rem;
+}
